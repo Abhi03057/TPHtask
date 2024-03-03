@@ -1,0 +1,204 @@
+.header{
+    display: flex;
+    height: 55px;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-width: 1px ;
+    border-style: solid;
+    border-color: rgb(237, 234, 234);
+}
+.left-section{
+  
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.hamburger-menu{
+    height: 30px;
+    margin-right: 50px;
+    margin-left: 25px;
+
+}
+.hamburger-menu:hover{
+    cursor: pointer;
+}
+.youtube-logo{
+    width: 90px;
+
+}
+.middle-section{
+   
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 800px;
+   
+    display: flex;
+    align-items: center;
+
+}
+.search-box{
+    flex: 1;
+    height: 40px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(191, 188, 188);
+    padding-left: 12px;
+    border-radius: 25px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    width: 0px;
+    position:relative;
+   
+}
+.voice-option{
+    position: relative;
+}
+.search-option .tooltip  {
+    position: absolute;
+    font-family: Roboto,Arial;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -18px;
+    opacity: 0;
+    pointer-events: none;
+
+}
+.search-option:hover .tooltip ,.voice-option:hover .tooltip , .create:hover .create-text , .apps:hover .app-text ,.notification-icon:hover .notification-text{
+    opacity: 1;
+}
+.voice-option .tooltip{
+    position: absolute;
+    font-family: Roboto,Arial;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 10px;
+    bottom: -25px;
+    opacity: 0;
+    pointer-events: none;
+}
+.create .create-text{
+    position: absolute;
+    font-family: Roboto,Arial;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 10px;
+    bottom: -10px;
+    opacity: 0;
+    pointer-events: none;
+    right: 250px;
+}
+.apps .app-text{
+    position: absolute;
+    font-family: Roboto,Arial;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 10px;
+    bottom: -10px;
+    opacity: 0;
+    pointer-events: none;
+    right: 150px;
+    
+}
+.notification-icon .notification-text{
+    position: absolute;
+    font-family: Roboto,Arial;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 10px;
+    bottom: -17px;
+    opacity: 0;
+    pointer-events: none;
+    right: 0px;
+}
+.search-box::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 16px;
+   
+   
+}
+.search-option,.voice-option,.upload-button,.apps-button,.notifications-button,.A-button{
+    border-color:rgb(191, 188, 188) ;
+    border-width: 0.5px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: none;
+  
+}
+.notification-icon{
+    position: relative;
+}
+.notifications-number{
+    position: absolute;
+    font-family: Roboto,Arial;
+    font-size: 11px;
+    background-color: red;
+    color: white;
+    top: 2px;
+    right: 20px;
+    border-radius: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+   
+}
+.search-option,.voice-option:hover{
+    cursor: pointer;
+  
+}
+.search-button,.upload-button,.apps-button,.notifications-button,.A-button{
+    height: 30px;
+    width: 50px;margin-top: 5px;
+ 
+ 
+}
+.search-button,.upload-button,.apps-button,.notifications-button,.A-button:hover{
+    cursor: pointer;
+}
+
+.voice-search-button{
+   
+    height: 35px;
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    flex-shrink: 0;
+
+    width: 300px;
+}

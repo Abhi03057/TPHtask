@@ -1,0 +1,97 @@
+.all-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 8px;
+    justify-items: center;
+    align-items: start; 
+   
+}
+
+
+.video-box {
+    width: 90%;
+}
+
+
+
+.thumbnail{
+    width: 100%;
+    object-position: bottom;
+    border-width: 2px;
+    border-radius: 2px;
+}
+
+.abhi{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.thumbnail:hover{
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.thumbnail.row{
+    margin-bottom: 12px;
+    
+}
+.thumbnail{
+    position: relative;
+}
+
+.heading-1,.heading-2,.heading-3,.heading-4,.heading-5,.heading-6,.heading-7,.heading-8,.heading-9{
+    width: 300px;
+    color: black;
+    margin-bottom: 2px;
+    margin-top: 0px;
+    display: inline-block;
+}
+.channel-photo,.second-channel-photo{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+    margin-top: 0px;
+    cursor: pointer;
+    
+}
+.profile-photo,.second-profile-photo{
+    width: 40px;
+    border-radius: 30px;
+    
+    
+}
+.profile-photo:hover{
+    cursor: pointer;
+}
+.video-info,.heading{
+    display: inline-block;
+    width: 200px;
+    font-weight: 500;
+    line-height: 20px;
+    
+}
+.name,
+.info{
+    color:rgb(96, 96, 96);
+    font-size: 12px;
+    font-weight: 400;
+    
+    
+}
+.name{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.thumbnail:hover{
+    cursor: pointer;
+}
+.thumbnail-row,.thumbnail2-row{
+    margin-bottom: 12px;
+}
+.first-row,.second-row{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    vertical-align: top;
+
+}
